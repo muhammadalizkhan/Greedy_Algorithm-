@@ -1,6 +1,5 @@
 //You need to use some Function Values, like x = 3, 4, 5
 #import <Foundation/Foundation.h>
-
 NSArray* greedyCoinChange(NSArray* availableCoins, NSInteger targetAmount) {
     NSMutableArray* result = [NSMutableArray array];
     NSInteger remainingAmount = targetAmount;
